@@ -1,7 +1,17 @@
+using Microsoft.EntityFrameworkCore;
+using Zay.Data.Data;
+using Zay.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+var connectionStrings = builder.Configuration.GetConnectionString("localhost");
+builder.Services.AddDbContext<AppDbContext>(o
+    => o.UseSqlServer(connectionStrings));
+
+builder.Services.AddScoped<IImageService, ImageService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 var app = builder.Build();
 

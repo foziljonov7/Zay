@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zay", "Zay\Zay.csproj", "{1F0C1D83-9A7B-488F-965E-C566268B34C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zay.Data", "Zay.Data\Zay.Data.csproj", "{DEFEA9C2-99DB-44A0-920B-CAE22749178C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1F0C1D83-9A7B-488F-965E-C566268B34C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F0C1D83-9A7B-488F-965E-C566268B34C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F0C1D83-9A7B-488F-965E-C566268B34C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEFEA9C2-99DB-44A0-920B-CAE22749178C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFEA9C2-99DB-44A0-920B-CAE22749178C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFEA9C2-99DB-44A0-920B-CAE22749178C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFEA9C2-99DB-44A0-920B-CAE22749178C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
