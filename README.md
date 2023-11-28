@@ -1,2 +1,2 @@
 # Zay
-* Zay online shop loyihasi *
+Online shop loyihasi
