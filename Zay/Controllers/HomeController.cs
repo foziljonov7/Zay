@@ -16,7 +16,15 @@ namespace Zay.Controllers
         {
             return View();
         }
-        public IActionResult GetProducts()
+        public IActionResult About()
+        {
+            return View();
+        }
+        public IActionResult Contact()
+        {
+            return View();
+        }
+        public IActionResult Shop()
         {
             return View();
         }
